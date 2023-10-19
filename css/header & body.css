@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+}
+
+body {
+	padding: 200px 0px;
+	background-image: url(https://yummyanime.tv/bag.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	transform: 40px;
+}
+
+.container {
+	width: 1200px;
+	height: 2200px;
+	background-color: rgb(19, 19, 19);
+	margin: 0 auto; 
+	position: relative;
+}
+
+header {
+	height: 70px;
+	position: sticky;
+	top: 0;
+	background-color: rgb(29, 29, 29);
+	display: flex;
+	padding: 10px;
+	box-shadow: 0px 0px 30px rgba(0,0,0, 0.7);
+    z-index: 100;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+	transition: opacity 0.2s;
+}
+
+a:hover {
+	opacity: 0.7;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 20px;
+	z-index: 100;
+}
+
+.logo {
+	width: 70px;
+	display: flex;
+	align-items: center;
+	margin-right: 70px;
+	font-weight: 700;
+}
+
+span {
+	display: inline;
+	color: rgb(206, 81, 189);
+}
+
+.logo-image {
+	height: 37px;
+	width: 100%;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.site-name {
+	display: inline-block;
+	color: white;
+	font-size: 1.7em;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+
+.site-selection {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.site-selection:last-child {
+	margin-right: 0px;
+}
+
+.site-selection > a {
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.site-selection > a {
+	text-decoration: none;
+	color: white;
+}
+
+.about-site {
+	display: flex;
+
+}
+
+.login-button {
+	background-color: rgb(199, 64, 211);
+	color: white;
+	border: none;
+	font-size: 12px;
+	padding: 13px 31px;
+	border-radius: 3px;
+	box-shadow: 0px 2px 30px rgba(199, 64, 211, 0.6);
+	font-weight: 500;
+	transition: background-color 0.3s, opacity 0.1s;
+}
+
+.login-button:hover {
+	cursor: pointer;
+	background-color: rgb(135, 43, 143);
+}
+
+.login-button:active {
+	opacity: 0.6;
+}
+
+footer {
+    padding: 30px 30px;
+	background-color: rgb(29, 29, 29);
+    position: absolute;
+    bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.footer-nav {
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 12px;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	color: grey
+}
